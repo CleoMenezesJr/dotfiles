@@ -74,10 +74,20 @@ _G.packer_plugins = {
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/dracula",
     url = "https://github.com/dracula/vim"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,

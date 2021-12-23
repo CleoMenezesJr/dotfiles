@@ -12,6 +12,7 @@ map('n', '<leader>2', ':tabNext<CR>', {noremap = true, silent = true})
 map('n', '<leader>1', ':tabprevious<CR>', {noremap = true, silent = true})
 map('n', '<leader>w', ':tabclose<CR>', {noremap = true, silent = true})
 map('n', '<leader>f', ':Telescope find_files<CR>', {noremap = true, silent = true})
+map('n', '<leader>g', ':Telescope live_grep<CR>', {noremap = true, silent = true})
 
 map('v', '<', '<gv', {noremap = true, silent = false})
 map('v', '>', '>gv', {noremap = true, silent = false})

@@ -1,4 +1,5 @@
 local actions = require('telescope.actions')
+local trouble = require("trouble.providers.telescope")
 require('telescope').setup {
     defaults = {
         layout_config = {
@@ -8,7 +9,7 @@ require('telescope').setup {
           horizontal = {mirror = false},
           vertical = {mirror = false},
         },
-        find_command = {'grep'},
+        find_command = {'rg', '--no-heading', '--with-filename', '--line-number', '--column', '--smart-case'},
         prompt_prefix = " ",
         selection_caret = " ",
         entry_prefix = "  ",
@@ -36,12 +37,14 @@ require('telescope').setup {
                 ["<C-k>"] = actions.move_selection_previous,
                 ["<C-q>"] = actions.smart_send_to_qflist + actions.open_qflist,
                 ["<esc>"] = actions.close,
-                ["<CR>"] = actions.select_default + actions.center
+                ["<CR>"] = actions.select_default + actions.center,
+                ["<c-t>"] = trouble.open_with_trouble,
             },
             n = {
                 ["<C-j>"] = actions.move_selection_next,
                 ["<C-k>"] = actions.move_selection_previous,
                 ["<C-q>"] = actions.smart_send_to_qflist + actions.open_qflist,
+                ["<c-t>"] = trouble.open_with_trouble,
             }
         }
     }

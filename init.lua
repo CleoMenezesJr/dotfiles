@@ -1,12 +1,16 @@
+require('nvim-tree-config')
+require('nvim-comment-config')
 require('plugins')
 require('options')
 require('lualine-config')
-require('nvim-tree-config')
 require('autopairs-config')
 require('keybindings')
 require('telescope-config')
 require('colorizer-config')
+require('cmp-config')
+require('trouble-config')
+require('dashboard-config')
+require('gitsigns-config')
 require('treesitter-config')
 
-vim.cmd[[colorscheme dracula]]  
-
+vim.cmd[[colorscheme dracula]]

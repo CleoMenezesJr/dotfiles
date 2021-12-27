@@ -20,7 +20,7 @@ vim.o.splitbelow = true
 vim.o.splitright = true
 vim.opt.termguicolors = true
 vim.o.conceallevel = 0
-vim.o.showtabline = 2
+vim.o.showtabline = 6
 vim.o.showmode = false
 vim.o.backup = false
 vim.o.writebackup = false
@@ -29,10 +29,8 @@ vim.o.timeoutlen = 100
 vim.o.clipboard = 'unnamedplus'
 --vim.o.hlsearch = false
 vim.o.ignorecase = true
---vim.o.scrolloff = 7
+vim.o.scrolloff = 7
 vim.o.sidescrolloff = 9
 vim.wo.wrap = false
 vim.wo.signcolumn = "yes"
-vim.cmd[[
-set noswapfile
-]]
+vim.cmd("set noswapfile")

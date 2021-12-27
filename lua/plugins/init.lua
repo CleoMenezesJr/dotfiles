@@ -44,5 +44,7 @@ return require('packer').startup(function()
       },
     }
     use {'terrortylor/nvim-comment'}
+    use "rebelot/kanagawa.nvim"
+    use {"akinsho/toggleterm.nvim"}
 end)
 

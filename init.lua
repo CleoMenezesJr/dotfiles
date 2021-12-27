@@ -7,10 +7,11 @@ require('autopairs-config')
 require('keybindings')
 require('telescope-config')
 require('colorizer-config')
-require('cmp-config')
+require('lsp')
 require('trouble-config')
 require('dashboard-config')
 require('gitsigns-config')
+require('toggleterm-config')
 require('treesitter-config')
 
-vim.cmd[[colorscheme dracula]]
+vim.cmd("colorscheme kanagawa")

@@ -12,6 +12,11 @@ require('trouble-config')
 require('dashboard-config')
 require('gitsigns-config')
 require('toggleterm-config')
+require('py-lsp-config')
+require('gomove-config')
+require('toggle-lsp-diagnostics')
+require('indent-blankline-config')
 require('treesitter-config')
 
 vim.cmd("colorscheme kanagawa")
+vim.cmd[[hi Normal guibg=NONE ctermbg=NONE]]

@@ -1,5 +1,5 @@
 vim.wo.number = true
-vim.o.relativenumber = true
+vim.o.relativenumber = false
 vim.o.cursorline = true
 vim.o.tabstop = 4
 vim.bo.tabstop = 4
@@ -26,11 +26,15 @@ vim.o.backup = false
 vim.o.writebackup = false
 vim.o.updatetime = 300
 vim.o.timeoutlen = 100
-vim.o.clipboard = 'unnamedplus'
 --vim.o.hlsearch = false
 vim.o.ignorecase = true
 vim.o.scrolloff = 7
-vim.o.sidescrolloff = 9
+vim.o.sidescrolloff = 7
 vim.wo.wrap = false
 vim.wo.signcolumn = "yes"
+vim.opt.completeopt = "menuone,noselect"
 vim.cmd("set noswapfile")
+vim.o.clipboard = 'unnamedplus'
+
+vim.opt.list = true
+vim.opt.listchars:append("space:⋅")

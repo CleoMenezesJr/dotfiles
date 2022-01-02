@@ -46,5 +46,11 @@ return require('packer').startup(function()
     use {'terrortylor/nvim-comment'}
     use "rebelot/kanagawa.nvim"
     use {"akinsho/toggleterm.nvim"}
+    use {'HallerPatrick/py_lsp.nvim'}
+    use {'tweekmonster/django-plus.vim'}
+    use {'booperlv/nvim-gomove'}
+    use {'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'}
+ 	use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
+    use {"lukas-reineke/indent-blankline.nvim"}
 end)
 

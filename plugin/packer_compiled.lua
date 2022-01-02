@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["cmp-tabnine"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-tabnine",
+    url = "https://github.com/tzachar/cmp-tabnine"
+  },
   ["cmp-vsnip"] = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-vsnip",
@@ -98,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
+  },
+  ["django-plus.vim"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/django-plus.vim",
+    url = "https://github.com/tweekmonster/django-plus.vim"
   },
   dracula = {
     loaded = true,
@@ -113,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
@@ -154,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
   },
+  ["nvim-gomove"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-gomove",
+    url = "https://github.com/booperlv/nvim-gomove"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -194,10 +214,20 @@ _G.packer_plugins = {
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["py_lsp.nvim"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/py_lsp.nvim",
+    url = "https://github.com/HallerPatrick/py_lsp.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toggle-lsp-diagnostics.nvim"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/toggle-lsp-diagnostics.nvim",
+    url = "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim"
   },
   ["toggleterm.nvim"] = {
     loaded = true,

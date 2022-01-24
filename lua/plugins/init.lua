@@ -50,7 +50,11 @@ return require('packer').startup(function()
     use {'tweekmonster/django-plus.vim'}
     use {'booperlv/nvim-gomove'}
     use {'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'}
- 	use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
+    use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
     use {"lukas-reineke/indent-blankline.nvim"}
+	use {
+      'kdheepak/tabline.nvim',
+      requires = { { 'hoob3rt/lualine.nvim', opt=true }, {'kyazdani42/nvim-web-devicons', opt = true} }
+    }
 end)
 

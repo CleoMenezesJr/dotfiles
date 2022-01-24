@@ -30,10 +30,10 @@ let g:nvim_tree_icons = {
 require'nvim-tree'.setup {
   disable_netrw       = true,
   hijack_netrw        = true,
-  open_on_setup       = false,
+  open_on_setup       = true,
   ignore_ft_on_setup  = {},
-  auto_close          = true,
-  open_on_tab         = false,
+  auto_close          = false,
+  open_on_tab         = true,
   hijack_cursor       = false,
   update_cwd          = false,
   update_to_buf_dir   = {
@@ -41,8 +41,8 @@ require'nvim-tree'.setup {
     auto_open = true,
   },
   update_focused_file = {
-    enable      = false,
-    update_cwd  = false,
+    enable      = true,
+    update_cwd  = true,
     ignore_list = {}
   },
   system_open = {
@@ -56,13 +56,13 @@ require'nvim-tree'.setup {
   git = {
     enable = true,
     ignore = true,
-    timeout = 500,
+    timeout = 200,
   },
   view = {
     width = 35,
     height = 35,
-    hide_root_folder = true,
-    side = 'right',
+    hide_root_folder = false,
+    side = 'left',
     auto_resize = true,
     mappings = {
       custom_only = false,

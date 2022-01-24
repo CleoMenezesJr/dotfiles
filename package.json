@@ -1,1 +1,19 @@
-{}
+{
+  "name": "nvim",
+  "description": ".\r\r ├── init.lua\r\r ├── lua\r\r │   ├── autopairs-config\r\r │   │   └── init.lua\r\r │   ├── lualine-config\r\r │   │   └── init.lua\r\r │   ├── nvim-tree-config\r\r │   │   └── init.lua\r\r │   ├── options\r\r │   │   └── init.lua\r\r │   ├── plugins\r\r │   │   └── init.lua\r\r │   └── treesitter-config\r\r │       └── init.lua\r\r ├── plugin\r\r │   └── packer_compiled.lua\r\r └── README.md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleoMenezes/dotfiles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CleoMenezes/dotfiles/issues"
+  },
+  "homepage": "https://github.com/CleoMenezes/dotfiles#readme"
+}

@@ -219,6 +219,11 @@ _G.packer_plugins = {
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/py_lsp.nvim",
     url = "https://github.com/HallerPatrick/py_lsp.nvim"
   },
+  ["tabline.nvim"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/tabline.nvim",
+    url = "https://github.com/kdheepak/tabline.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/telescope.nvim",

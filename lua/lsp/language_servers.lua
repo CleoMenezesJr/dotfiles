@@ -8,13 +8,7 @@ require'lspconfig'.html.setup {
     on_attach = on_attach,
     capabilities = capabilities
 }
-require'lspconfig'.tsserver.setup{
-    cmd = { "typescript-language-server", "--stdio" },
-    filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
-    init_options = {
-      hostInfo = "neovim"
-    },
-}
+require'lspconfig'.tsserver.setup{}
 -- require'lspconfig'.jedi_language_server.setup{
 --     cmd = { "jedi-language-server" },
 --     filetypes = { "python" },
@@ -43,8 +37,8 @@ require'lspconfig'.pylsp.setup{
         },
     },
 }
-require'toggle_lsp_diagnostics'.init({ starton = true, underline = true, virtual_text = { prefix = "gostosa", spacing = 10 }})
 -- require'lspconfig'.pyright.setup{}
+require'lspconfig'.bashls.setup{}
 
 local tabnine = require('cmp_tabnine.config')
 tabnine:setup({

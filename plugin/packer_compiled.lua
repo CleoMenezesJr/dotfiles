@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-buffer",
@@ -98,11 +103,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
-  },
-  ["dashboard-nvim"] = {
-    loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/dashboard-nvim",
-    url = "https://github.com/glepnir/dashboard-nvim"
   },
   ["django-plus.vim"] = {
     loaded = true,
@@ -219,20 +219,15 @@ _G.packer_plugins = {
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/py_lsp.nvim",
     url = "https://github.com/HallerPatrick/py_lsp.nvim"
   },
-  ["tabline.nvim"] = {
+  ["surround.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/tabline.nvim",
-    url = "https://github.com/kdheepak/tabline.nvim"
+    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/surround.nvim",
+    url = "https://github.com/blackCauldron7/surround.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["toggle-lsp-diagnostics.nvim"] = {
-    loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/toggle-lsp-diagnostics.nvim",
-    url = "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim"
   },
   ["toggleterm.nvim"] = {
     loaded = true,
@@ -243,11 +238,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
-  },
-  ["vim-surround"] = {
-    loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/vim-surround",
-    url = "https://github.com/tpope/vim-surround"
   },
   ["vim-vsnip"] = {
     loaded = true,

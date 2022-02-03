@@ -9,11 +9,11 @@ require'lspconfig'.html.setup {
     capabilities = capabilities
 }
 require'lspconfig'.tsserver.setup{}
--- require'lspconfig'.jedi_language_server.setup{
---     cmd = { "jedi-language-server" },
---     filetypes = { "python" },
---     single_file_support = true
--- }
+require'lspconfig'.jedi_language_server.setup{
+    cmd = { "jedi-language-server" },
+    filetypes = { "python" },
+    single_file_support = true
+}
 require'lspconfig'.jsonls.setup {
   capabilities = capabilities,
 }
@@ -24,20 +24,21 @@ require'lspconfig'.cssls.setup {
   capabilities = capabilities,
 }
 require'lspconfig'.dockerls.setup{}
-require'lspconfig'.emmet_ls.setup{}
-require'lspconfig'.pylsp.setup{
-    capabilities = capabilities,
-    settings = {
-        pylsp = {
-            plugins = {
-                jedi_completion = {
-                    include_params = true,
-                },
-            },
-        },
-    },
+require'lspconfig'.emmet_ls.setup{
+        capabilities = capabilities,
 }
--- require'lspconfig'.pyright.setup{}
+-- require'lspconfig'.pylsp.setup{
+--     capabilities = capabilities,
+--     settings = {
+--         pylsp = {
+--             plugins = {
+--                 jedi_completion = {
+--                     include_params = true,
+--                 },
+--             },
+--         },
+--     },
+-- }
 require'lspconfig'.bashls.setup{}
 
 local tabnine = require('cmp_tabnine.config')

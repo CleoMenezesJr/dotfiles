@@ -3,10 +3,6 @@ return require('packer').startup(function()
 	use {'dracula/vim', as = 'dracula'}
 	use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
     use {
-          'nvim-lualine/lualine.nvim',
-          requires = {'kyazdani42/nvim-web-devicons', opt = true}
-    }
-    use {
         'kyazdani42/nvim-tree.lua',
         requires = {
             'kyazdani42/nvim-web-devicons',
@@ -30,13 +26,11 @@ return require('packer').startup(function()
     use {'hrsh7th/cmp-vsnip'}
     use {'hrsh7th/vim-vsnip'}
     use { 'norcalli/nvim-colorizer.lua' }
-    use {'onsails/lspkind-nvim'}  
-    use {'tpope/vim-surround'}
+    use {'onsails/lspkind-nvim'}
     use {
       "folke/trouble.nvim",
       requires = "kyazdani42/nvim-web-devicons",
     }
-    use {'glepnir/dashboard-nvim'}
     use {
       'lewis6991/gitsigns.nvim',
       requires = {
@@ -49,12 +43,13 @@ return require('packer').startup(function()
     use {'HallerPatrick/py_lsp.nvim'}
     use {'tweekmonster/django-plus.vim'}
     use {'booperlv/nvim-gomove'}
-    use {'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'}
+    -- use {'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'}
     use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
     use {"lukas-reineke/indent-blankline.nvim"}
-	use {
-      'kdheepak/tabline.nvim',
-      requires = { { 'hoob3rt/lualine.nvim', opt=true }, {'kyazdani42/nvim-web-devicons', opt = true} }
+    use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
+    use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
+    use { "blackCauldron7/surround.nvim" }
 end)
-

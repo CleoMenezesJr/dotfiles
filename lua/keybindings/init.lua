@@ -7,12 +7,13 @@ map('n', '<C-k>', '<C-w>k', {noremap = true, silent = false})
 
 map('i', 'jk', '<ESC>', {noremap = true, silent = false})
 map('i', 'jk', '<ESC>', {noremap = true, silent = false})
+map('n', '<TAB>', ':BufferLineCycleNext<CR>', {noremap = true, silent = false})
+map('n', '<s-TAB>', ':BufferLineCyclePrev<CR>', {noremap = true, silent = false})
 map('n', '<C-n>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
-map('n', '<leader>2', ':tabNext<CR>', {noremap = true, silent = true})
-map('n', '<leader>1', ':tabprevious<CR>', {noremap = true, silent = true})
-map('n', '<leader>w', ':tabclose<CR>', {noremap = true, silent = true})
+map('n', '<leader>q', ':bdelete!<CR>', {noremap = true, silent = true})
 map('n', '<leader>f', ':Telescope find_files<CR>', {noremap = true, silent = true})
 map('n', '<leader>g', ':Telescope live_grep<CR>', {noremap = true, silent = true})
 
 map('v', '<', '<gv', {noremap = true, silent = false})
 map('v', '>', '>gv', {noremap = true, silent = false})
+

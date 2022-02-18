@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/var/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/var/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/var/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -71,177 +71,177 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["bufferline.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/bufferline.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-buffer",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-cmdline"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-cmdline",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-cmdline",
     url = "https://github.com/hrsh7th/cmp-cmdline"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-path",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
   ["cmp-tabnine"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-tabnine",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-tabnine",
     url = "https://github.com/tzachar/cmp-tabnine"
   },
   ["cmp-vsnip"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-vsnip",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   ["django-plus.vim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/django-plus.vim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/django-plus.vim",
     url = "https://github.com/tweekmonster/django-plus.vim"
   },
   dracula = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/dracula",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/dracula",
     url = "https://github.com/dracula/vim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/gitsigns.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/gruvbox.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/indent-blankline.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/kanagawa.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lspkind-nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lspkind-nvim",
     url = "https://github.com/onsails/lspkind-nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lualine.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["lush.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lush.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lush.nvim",
     url = "https://github.com/rktjmp/lush.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-autopairs",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-comment"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-comment",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
   },
   ["nvim-gomove"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-gomove",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-gomove",
     url = "https://github.com/booperlv/nvim-gomove"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-autotag"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-ts-autotag",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-ts-rainbow"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-ts-rainbow",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-ts-rainbow",
     url = "https://github.com/p00f/nvim-ts-rainbow"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/packer.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["py_lsp.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/py_lsp.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/py_lsp.nvim",
     url = "https://github.com/HallerPatrick/py_lsp.nvim"
   },
   ["surround.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/surround.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/surround.nvim",
     url = "https://github.com/blackCauldron7/surround.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["toggleterm.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/toggleterm.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["trouble.nvim"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/trouble.nvim",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/vim-vsnip",
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/vim-vsnip",
     url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
@@ -252,5 +252,6 @@ if should_profile then save_profiles() end
 end)
 
 if not no_errors then
+  error_msg = error_msg:gsub('"', '\\"')
   vim.api.nvim_command('echohl ErrorMsg | echom "Error in packer_compiled: '..error_msg..'" | echom "Please check your config for correctness" | echohl None')
 end

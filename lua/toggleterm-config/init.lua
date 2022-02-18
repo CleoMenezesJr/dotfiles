@@ -5,7 +5,7 @@ require("toggleterm").setup{
     shade_terminals = true,
     shading_factor = 1,
     direction = 'float',
-    shell = 'flatpak-spawn --host --env=TERM="$TERM" bash',
+    shell = 'flatpak-spawn --host --env=TERM="$TERM" zsh',
     float_opts = {
         border = "curved",
         height = 25,

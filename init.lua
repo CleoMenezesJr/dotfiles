@@ -15,6 +15,7 @@ require("indent-blankline-config")
 require("nvim-tree-config")
 require("nvim-comment-config")
 require("bufferline-config")
+require("bufdelete-config")
 require("treesitter-config")
 
 vim.cmd("colorscheme kanagawa")

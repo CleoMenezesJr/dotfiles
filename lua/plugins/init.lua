@@ -51,5 +51,5 @@ return require('packer').startup(function()
       'nvim-lualine/lualine.nvim',
       requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
-    use { "blackCauldron7/surround.nvim" }
+    use 'famiu/bufdelete.nvim'
 end)

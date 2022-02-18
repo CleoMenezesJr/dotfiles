@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["bufdelete.nvim"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/bufdelete.nvim",
+    url = "https://github.com/famiu/bufdelete.nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/bufferline.nvim",
@@ -218,11 +223,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/py_lsp.nvim",
     url = "https://github.com/HallerPatrick/py_lsp.nvim"
-  },
-  ["surround.nvim"] = {
-    loaded = true,
-    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/surround.nvim",
-    url = "https://github.com/blackCauldron7/surround.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

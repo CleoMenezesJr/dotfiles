@@ -52,4 +52,5 @@ return require('packer').startup(function()
       requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
     use 'famiu/bufdelete.nvim'
+    use 'danilamihailov/beacon.nvim'
 end)

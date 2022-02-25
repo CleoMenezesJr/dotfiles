@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["beacon.nvim"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/beacon.nvim",
+    url = "https://github.com/danilamihailov/beacon.nvim"
+  },
   ["bufdelete.nvim"] = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/bufdelete.nvim",

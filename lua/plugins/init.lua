@@ -1,6 +1,5 @@
 return require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
-	use {'dracula/vim', as = 'dracula'}
 	use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
     use {
         'kyazdani42/nvim-tree.lua',
@@ -11,7 +10,6 @@ return require('packer').startup(function()
     use 'windwp/nvim-ts-autotag'
     use 'p00f/nvim-ts-rainbow'
     use 'windwp/nvim-autopairs'
-    use {"ellisonleao/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
     use {
         'nvim-telescope/telescope.nvim',
         requires = { {'nvim-lua/plenary.nvim'} }
@@ -27,18 +25,15 @@ return require('packer').startup(function()
     use {'hrsh7th/vim-vsnip'}
     use { 'norcalli/nvim-colorizer.lua' }
     use {'onsails/lspkind-nvim'}
-    use {
-      "folke/trouble.nvim",
+    use {"folke/trouble.nvim",
       requires = "kyazdani42/nvim-web-devicons",
     }
-    use {
-      'lewis6991/gitsigns.nvim',
+    use {'lewis6991/gitsigns.nvim',
       requires = {
         'nvim-lua/plenary.nvim'
       },
     }
     use {'terrortylor/nvim-comment'}
-    use "rebelot/kanagawa.nvim"
     use {"akinsho/toggleterm.nvim"}
     use {'HallerPatrick/py_lsp.nvim'}
     use {'tweekmonster/django-plus.vim'}
@@ -47,10 +42,25 @@ return require('packer').startup(function()
     use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
     use {"lukas-reineke/indent-blankline.nvim"}
     use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
-    use {
-      'nvim-lualine/lualine.nvim',
+    use {'nvim-lualine/lualine.nvim',
       requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
     use 'famiu/bufdelete.nvim'
     use 'danilamihailov/beacon.nvim'
+
+
+
+
+    --themes
+    use {'dracula/vim', as = 'dracula'}
+    use {"ellisonleao/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
+    use "rebelot/kanagawa.nvim"
+    use 'folke/tokyonight.nvim'
+    use 'ful1e5/onedark.nvim'
+    use 'katawful/kat.nvim'
+    use({'rose-pine/neovim',
+    as = 'rose-pine',
+    tag = 'v1.*'
+    })
+    use 'shaunsingh/moonlight.nvim'
 end)

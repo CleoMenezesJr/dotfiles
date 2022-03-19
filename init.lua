@@ -18,5 +18,5 @@ require("bufferline-config")
 require("bufdelete-config")
 require("treesitter-config")
 
-vim.cmd("colorscheme kanagawa")
-vim.cmd[[hi Normal guibg=NONE ctermbg=NONE]]
+vim.cmd("colorscheme onedark")
+-- vim.cmd[[hi Normal guibg=NONE ctermbg=NONE]]

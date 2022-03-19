@@ -2,7 +2,6 @@ vim.cmd [[
 let g:nvim_tree_icon_padding = ' '
 let g:nvim_tree_group_empty = 1
 let g:nvim_tree_highlight_opened_files = 1
-let g:nvim_tree_disable_window_picker = 1
 let g:nvim_tree_icons = {
     \ 'default': '',
     \ 'symlink': '',
@@ -75,5 +74,17 @@ require'nvim-tree'.setup {
   trash = {
     cmd = "trash",
     require_confirm = true
-  }
+  },
+    open_file = {
+      quit_on_open = true,
+      resize_window = false,
+      window_picker = {
+        enable = true,
+        chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+        exclude = {
+          filetype = { "notify", "packer", "qf", "diff", "fugitive", "fugitiveblame", },
+          buftype  = { "nofile", "terminal", "help", },
+        }
+      }
+    }
 }

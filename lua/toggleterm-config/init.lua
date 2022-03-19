@@ -8,8 +8,8 @@ require("toggleterm").setup{
     shell = 'flatpak-spawn --host --env=TERM="$TERM" zsh',
     float_opts = {
         border = "curved",
-        height = 25,
-        width = 100,
+        height = 20,
+        width = 90,
 
     },
 }

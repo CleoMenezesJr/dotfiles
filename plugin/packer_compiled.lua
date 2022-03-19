@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
   },
+  ["kat.nvim"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/kat.nvim",
+    url = "https://github.com/katawful/kat.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lspkind-nvim",
@@ -158,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/lush.nvim",
     url = "https://github.com/rktjmp/lush.nvim"
+  },
+  ["moonlight.nvim"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/moonlight.nvim",
+    url = "https://github.com/shaunsingh/moonlight.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -214,6 +224,11 @@ _G.packer_plugins = {
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/ful1e5/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/packer.nvim",
@@ -229,6 +244,11 @@ _G.packer_plugins = {
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/py_lsp.nvim",
     url = "https://github.com/HallerPatrick/py_lsp.nvim"
   },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/rose-pine",
+    url = "https://github.com/rose-pine/neovim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/telescope.nvim",
@@ -238,6 +258,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["trouble.nvim"] = {
     loaded = true,

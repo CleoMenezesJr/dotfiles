@@ -5,12 +5,11 @@ require('nvim_comment').setup({
     comment_empty = true,
     -- Should key mappings be created
     create_mappings = true,
-    -- Normal mode mapping left hand side
-    line_mapping = "<gcc>",
+    -- -- Normal mode mapping left hand side
+    -- line_mapping = "zz",
     -- Visual/Operator mapping left hand side
     operator_mapping = "<c-_>",
     -- Hook function to call before commenting takes place
     hook = nil,
-    comment_empty = false,
 
 })

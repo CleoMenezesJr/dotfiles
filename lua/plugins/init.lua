@@ -36,10 +36,9 @@ return require('packer').startup(function()
     use {'terrortylor/nvim-comment'}
     use {"akinsho/toggleterm.nvim"}
     use {'HallerPatrick/py_lsp.nvim'}
-    use {'tweekmonster/django-plus.vim'}
+    -- use {'tweekmonster/django-plus.vim'}
     use {'booperlv/nvim-gomove'}
     -- use {'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'}
-    use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
     use {"lukas-reineke/indent-blankline.nvim"}
     use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
     use {'nvim-lualine/lualine.nvim',
@@ -47,8 +46,17 @@ return require('packer').startup(function()
     }
     use 'famiu/bufdelete.nvim'
     use 'danilamihailov/beacon.nvim'
-
-
+    use {'williamboman/nvim-lsp-installer'}
+    use({
+      "gbprod/cutlass.nvim",
+      config = function()
+        require("cutlass").setup({
+          -- your configuration comes here
+          -- or leave it empty to use the default settings
+          -- refer to the configuration section below
+        })
+      end
+    })
 
 
     --themes
@@ -59,8 +67,9 @@ return require('packer').startup(function()
     use 'ful1e5/onedark.nvim'
     use 'katawful/kat.nvim'
     use({'rose-pine/neovim',
-    as = 'rose-pine',
-    tag = 'v1.*'
+        as = 'rose-pine',
+        tag = 'v1.*'
     })
     use 'shaunsingh/moonlight.nvim'
+    use 'Mofiqul/adwaita.nvim'
 end)

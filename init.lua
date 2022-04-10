@@ -16,7 +16,9 @@ require("nvim-tree-config")
 require("nvim-comment-config")
 require("bufferline-config")
 require("bufdelete-config")
+require("cutlass")
 require("treesitter-config")
 
-vim.cmd("colorscheme onedark")
+vim.g.adwaita_mode = "dark"
+vim.cmd("colorscheme adwaita")
 -- vim.cmd[[hi Normal guibg=NONE ctermbg=NONE]]

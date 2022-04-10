@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["adwaita.nvim"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/adwaita.nvim",
+    url = "https://github.com/Mofiqul/adwaita.nvim"
+  },
   ["beacon.nvim"] = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/beacon.nvim",
@@ -104,20 +109,16 @@ _G.packer_plugins = {
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["cmp-tabnine"] = {
-    loaded = true,
-    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-tabnine",
-    url = "https://github.com/tzachar/cmp-tabnine"
-  },
   ["cmp-vsnip"] = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
-  ["django-plus.vim"] = {
+  ["cutlass.nvim"] = {
+    config = { "\27LJ\2\0029\0\0\2\0\3\0\a6\0\0\0'\1\1\0B\0\2\0029\0\2\0004\1\0\0B\0\2\1K\0\1\0\nsetup\fcutlass\frequire\0" },
     loaded = true,
-    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/django-plus.vim",
-    url = "https://github.com/tweekmonster/django-plus.vim"
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/cutlass.nvim",
+    url = "https://github.com/gbprod/cutlass.nvim"
   },
   dracula = {
     loaded = true,
@@ -193,6 +194,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-gomove",
     url = "https://github.com/booperlv/nvim-gomove"
+  },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "/var/home/cleomenezesjr/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -277,6 +283,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: cutlass.nvim
+time([[Config for cutlass.nvim]], true)
+try_loadstring("\27LJ\2\0029\0\0\2\0\3\0\a6\0\0\0'\1\1\0B\0\2\0029\0\2\0004\1\0\0B\0\2\1K\0\1\0\nsetup\fcutlass\frequire\0", "config", "cutlass.nvim")
+time([[Config for cutlass.nvim]], false)
 if should_profile then save_profiles() end
 
 end)

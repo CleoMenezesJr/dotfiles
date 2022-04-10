@@ -6,13 +6,13 @@ let g:nvim_tree_icons = {
     \ 'default': '',
     \ 'symlink': '',
     \ 'git': {
-    \   'unstaged': "",
-    \   'staged': "﫟",
-    \   'unmerged': "",
-    \   'renamed': "ﯽ",
-    \   'untracked': "硫",
-    \   'deleted': "ﮁ",
-    \   'ignored': ""
+    \   'unstaged': "",
+    \   'staged': "",
+    \   'unmerged': "",
+    \   'renamed': "",
+    \   'untracked': "",
+    \   'deleted': "",
+    \   'ignored': ""
     \   },
     \ 'folder': {
     \   'arrow_open': "",
@@ -31,8 +31,7 @@ require'nvim-tree'.setup {
   hijack_netrw        = true,
   open_on_setup       = false,
   ignore_ft_on_setup  = {},
-  auto_close          = true,
-  open_on_tab         = false,
+  open_on_tab         = true,
   hijack_cursor       = false,
   update_cwd          = true,
   update_to_buf_dir   = {
@@ -40,7 +39,7 @@ require'nvim-tree'.setup {
     auto_open = true,
   },
   update_focused_file = {
-    enable      = true,
+    enable      = false,
     update_cwd  = true,
     ignore_list = {}
   },
@@ -62,7 +61,7 @@ require'nvim-tree'.setup {
     height = 35,
     hide_root_folder = false,
     side = 'left',
-    auto_resize = true,
+    auto_resize = false,
     mappings = {
       custom_only = false,
       list = {}
